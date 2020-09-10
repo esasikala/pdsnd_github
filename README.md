@@ -8,7 +8,8 @@ BikeShare project
 Analyzes user traffic data for 3 cities
 
 ### Files used
-Include the files used
+chicago.csv
+
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
