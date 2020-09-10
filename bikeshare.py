@@ -240,7 +240,6 @@ def user_stats(df):
         print("Most recent year of birth: ", int( df['Birth Year'].max() ))
         print("Most common year of birth: ", int( df['Birth Year'].mode().iloc[0] ))
 
-
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
