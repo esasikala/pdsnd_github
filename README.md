@@ -5,7 +5,7 @@
 BikeShare project
 
 ### Description
-Describe what your project is about and what it does
+Analyzes user traffic data for 3 cities
 
 ### Files used
 Include the files used
