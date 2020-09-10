@@ -212,6 +212,7 @@ def user_stats(df):
     print('\nCalculating User Stats...\n')
     start_time = time.time()
 
+    # check if column is not available in input file
     if 'Gender' not in df:
         #df = df.reindex(columns = np.append( df.columns.values, ['Gender'])
         df['Gender'] = None
@@ -239,7 +240,6 @@ def user_stats(df):
         print("Earliest year of birth: ", int( df['Birth Year'].min() ))
         print("Most recent year of birth: ", int( df['Birth Year'].max() ))
         print("Most common year of birth: ", int( df['Birth Year'].mode().iloc[0] ))
-
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
