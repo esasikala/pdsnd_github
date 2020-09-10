@@ -10,6 +10,7 @@ Analyzes user traffic data for 3 cities
 ### Files used
 chicago.csv
 washington.csv
+new_york_city.csv
 
 
 
