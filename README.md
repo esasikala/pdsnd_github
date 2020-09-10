@@ -9,6 +9,8 @@ Analyzes user traffic data for 3 cities
 
 ### Files used
 chicago.csv
+washington.csv
+
 
 
 ### Credits
