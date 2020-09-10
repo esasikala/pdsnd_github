@@ -212,6 +212,7 @@ def user_stats(df):
     print('\nCalculating User Stats...\n')
     start_time = time.time()
 
+    # check if column is not available in input file
     if 'Gender' not in df:
         #df = df.reindex(columns = np.append( df.columns.values, ['Gender'])
         df['Gender'] = None
